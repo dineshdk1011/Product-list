@@ -1,0 +1,148 @@
+body {
+    background-color: #f2f2f2;
+    font-family: arial;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 40px;
+
+    transition: all 0.3s linear;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    font-weight: 600;
+    margin: 0px 14px;
+}
+
+/* Scroll Effect */
+.scrollEffect {
+    background-color: #000;
+}
+
+.scrollEffect nav {
+    color: #fff;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+
+
+.card {
+    position: relative;
+    z-index: 1;
+    display: block;
+    background: transparent;
+    /* min-width: 270px; */
+    max-width: 300px;
+    box-shadow: 20px 20px 30px -20px #00000040;
+    border: none;
+}
+
+.card-content {
+    clear: both;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+.img-mask {
+    height: 170px;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.img-mask>img {
+    display: block;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+
+
+
+.price {
+    height: 17px;
+    max-width: 150px;
+    width: 110px;
+    padding: 10px;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+h2.title {
+    font-size: 15px;
+}
+.category{
+    font-size: 15px;
+    color: palevioletred;
+}
+.description{
+    font-size: 11px;
+}
+.searchinput{
+    width: 50%;
+}
+
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.has-search{
+    width: 50%;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.addproductbtn{
+    cursor: pointer;
+}
+.submitbtn{
+    border-radius: 10px;
+}
